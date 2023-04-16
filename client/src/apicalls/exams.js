@@ -4,7 +4,7 @@ const { link } = require("./apiLink");
 
 export const addExam = async (payload) => {
   try {
-    const response = await axiosInstance.post(`${link}/api/exams/add`, payload);
+    const response = await axiosInstance.post(`https://puzzle-it-abadar169.vercel.app/api/exams/add`, payload);
     return response.data;
   } catch (error) {
     return error.response.data;
@@ -14,7 +14,7 @@ export const addExam = async (payload) => {
 //get all exams
 export const getAllExams = async () => {
   try {
-    const response = await axiosInstance.post(`${link}/api/exams/get-all-exams`);
+    const response = await axiosInstance.post(`https://puzzle-it-abadar169.vercel.app/api/exams/get-all-exams`);
     return response.data;
   } catch (error) {
     return error.response.data;
