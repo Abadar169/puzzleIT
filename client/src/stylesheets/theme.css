@@ -1,0 +1,55 @@
+:root{
+    --primary: #0f3460;
+    --secondary: #ff6347;
+    --success: #e8f1f1;
+    --info: #00bfff;
+    --warning: #eaa5a7;
+    --danger: #ff0000;
+    --light: #f8f9fa;
+    --dark: #343a40;
+}
+
+.bg-primary{
+    background-color: var(--primary) !important;
+}
+
+
+.bgimg{
+    background-image: url("https://images8.alphacoders.com/810/810904.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background-color: rgb(141, 150, 150);
+  background-blend-mode: multiply;
+}
+
+
+
+.bg-white{
+    background-color: #fff !important;
+}
+
+.text-white{
+    color: white !important;
+}
+
+.bg-success{
+    background-color: var(--success);
+}
+
+.bg-error{
+    background-color: var(--warning);
+}
+
+.heading{
+    color: #000;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    display: block;
+    font-weight: bold;
+    font-size: x-large;
+}
