@@ -4,7 +4,7 @@ const { default: axiosInstance } = require(".");
 
 export const addExam = async (payload) => {
   try {
-    const response = await axiosInstance.post("/api/exams/add", payload);
+    const response = await axiosInstance.post("https://puzzle-it-abadar169.vercel.app/api/exams/add", payload);
     return response.data;
   } catch (error) {
     return error.response.data;
@@ -24,7 +24,7 @@ export const getAllExams = async () => {
 //get exam by id
 export const getExamById = async (payload) => {
   try {
-    const response = await axiosInstance.post("/api/exams/get-exam-by-id", payload);
+    const response = await axiosInstance.post("https://puzzle-it-abadar169.vercel.app/api/exams/get-exam-by-id", payload);
     return response.data;
   } catch (error) {
     return error.response.data;
@@ -34,7 +34,7 @@ export const getExamById = async (payload) => {
 //edit exam by id
 export const editExamById = async (payload) => {
   try {
-    const response = await axiosInstance.post("/api/exams/edit-exam-by-id", payload);
+    const response = await axiosInstance.post("https://puzzle-it-abadar169.vercel.app/api/exams/edit-exam-by-id", payload);
     return response.data;
   } catch (error) {
     return error.response.data;
@@ -44,7 +44,7 @@ export const editExamById = async (payload) => {
 //delete exam by id
 export const deleteExamById = async (payload) => {
   try {
-    const response = await axiosInstance.post("/api/exams/delete-exam-by-id", payload);
+    const response = await axiosInstance.post("https://puzzle-it-abadar169.vercel.app/api/exams/delete-exam-by-id", payload);
     return response.data;
   } catch (error) {
     return error.response.data;
@@ -54,7 +54,7 @@ export const deleteExamById = async (payload) => {
 //add question to exam
 export const addQuestionToExam = async (payload) => {
   try {
-    const response = await axiosInstance.post("/api/exams/add-question-to-exam", payload);
+    const response = await axiosInstance.post("https://puzzle-it-abadar169.vercel.app/api/exams/add-question-to-exam", payload);
     return response.data;
   } catch (error) {
     return error.response.data;
