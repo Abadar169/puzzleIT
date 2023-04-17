@@ -80,3 +80,4 @@ With every twist and turn, you'll find yourself getting closer to freedom and cl
 - There is a dedicated page for exams which shows complete information about each puzzle including its name, duration in seconds, category, total number of clues and clues required to solve it.
 - The user's report page shows the results of both the current puzzle and previously solved puzzles.
 - The website includes a timer for each puzzle, and if the exam is not completed within the given time, it is automatically submitted. The timer can also be used to assess the user's accuracy.
+- The website has a testing directory that contains all the Selenium scripts utilized to test different pages of the website, including the Login Page, Register Page, Admin reports page, and more.
