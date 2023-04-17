@@ -41,6 +41,10 @@ Navigate to the project directory and Run the project: you can start the project
     npm start
 ```
 
+
+
+
+    
 ## Escape Room Puzzle 
 Intro : 
 Welcome to the Escape Room experience of a lifetime! In this immersive adventure, you will step into the shoes of a falsely accused prisoner who has been wrongly convicted and sent to prison. But you're not going to just sit around and wait for someone to come to your rescue - you're going to take matters into your own hands and escape from prison!
@@ -62,4 +66,17 @@ With every twist and turn, you'll find yourself getting closer to freedom and cl
 
 - The fifth question in the Escape Room requires the player to use all the clues collected so far to find a solution to unlock the exit door and escape. The previous answers and clues must be carefully analyzed and pieced together to find the correct combination or solution to unlock the door and escape the prison. Answer - Key for the fire exit 42211
 
+### Dead-ends of Escape Room
+- To avoid getting stuck in the escape room, it's important to stay alert and on the lookout for any potential clues, especially in the second question. The user must precisely count the pens and arrange them in accordance with the provided solution; otherwise, they won't be able to decipher the key to unlock the final exit door.
+- The second dead end is that in the third question, the user is required to solve a jigsaw puzzle to decrypt the hint. The puzzle says "For The Party," where "For The" is in green color and "Party" is in red color, representing danger. So, the phrase in green is to be considered as the answer because it helps in finding the answer to the final hint. This can be confusing and time-consuming for users who are not familiar with jigsaw puzzles.
+
 ## Features
+- The website provides authentication, allowing individuals to create an account with their email address and password in order to participate in the game.
+- A dashboard for the admin where the progress of all the users can be tracked & analyzed
+- The admin dashboard that offers multiple functionalities, such as presenting the results of all users who took the exam, including exam name, username, exam date, total clues, required clues, clues found, and verdict.
+- The admin has the ability to add new exams that assess different soft skills. The current categories available for assessment include critical thinking, time management, and teamwork.
+- The admin has the authority to make changes to the exam questions, such as adding or removing questions based on their preferences.
+- There is a separate reports page available for the admin, the admin has the option to sort the results based on either the name of the exam or the username of the user who took the exam.
+- There is a dedicated page for exams which shows complete information about each puzzle including its name, duration in seconds, category, total number of clues and clues required to solve it.
+- The user's report page shows the results of both the current puzzle and previously solved puzzles.
+- The website includes a timer for each puzzle, and if the exam is not completed within the given time, it is automatically submitted. The timer can also be used to assess the user's accuracy.
