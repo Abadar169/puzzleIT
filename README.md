@@ -73,11 +73,11 @@ With every twist and turn, you'll find yourself getting closer to freedom and cl
 ## Features
 - The website provides authentication, allowing individuals to create an account with their email address and password in order to participate in the game.
 - A dashboard for the admin where the progress of all the users can be tracked & analyzed
-- The admin dashboard that offers multiple functionalities, such as presenting the results of all users who took the exam, including exam name, username, exam date, total clues, required clues, clues found, and verdict.
+- The admin dashboard that offers multiple functionalities, such as presenting the results of all users who took the puzzle, including puzzle name, username, puzzle date, total clues, required clues, clues found, and verdict.
 - The admin has the ability to add new exams that assess different soft skills. The current categories available for assessment include critical thinking, time management, and teamwork.
-- The admin has the authority to make changes to the exam questions, such as adding or removing questions based on their preferences.
-- There is a separate reports page available for the admin, the admin has the option to sort the results based on either the name of the exam or the username of the user who took the exam.
+- The admin has the authority to make changes to the puzzle questions, such as adding or removing questions based on their preferences.
+- There is a separate reports page available for the admin, the admin has the option to sort the results based on either the name of the puzzle or the username of the user who took the puzzle.
 - There is a dedicated page for exams which shows complete information about each puzzle including its name, duration in seconds, category, total number of clues and clues required to solve it.
 - The user's report page shows the results of both the current puzzle and previously solved puzzles.
-- The website includes a timer for each puzzle, and if the exam is not completed within the given time, it is automatically submitted. The timer can also be used to assess the user's accuracy.
+- The website includes a timer for each puzzle, and if the puzzle is not completed within the given time, it is automatically submitted. The timer can also be used to assess the user's accuracy.
 - The website has a testing directory that contains all the Selenium scripts utilized to test different pages of the website, including the Login Page, Register Page, Admin reports page, and more.
